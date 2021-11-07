@@ -1,0 +1,110 @@
+.resume {
+  display: flex;
+}
+
+.description {
+  text-align: justify;
+}
+
+.description.personal {
+  margin-top: 1em;
+}
+
+.job .description {
+  font-size: 0.875rem;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: #333;
+  margin-top: 2em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column--left {
+  width: 35%;
+}
+
+.column--right {
+  width: 65%;
+  margin-top: 0;
+}
+
+.abilities__list {
+  padding-left: 1.5em;
+}
+
+.abilities__list li {
+  margin-top: 0.25em;
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.job + .job {
+  margin-top: 1.5em;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link span {
+  margin-top: 0;
+  margin-left: 0.5em;
+}
+
+.link img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: initial;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #666;
+}
+
+@media screen {
+  body {
+    background-color: #eee;
+  }
+
+  .container {
+    padding: 3em;
+    background-color: #fff;
+    width: 210mm;
+    margin: 0 auto;
+    box-shadow: 0 4px 5px rgb(75 75 75 / 20%);
+  }
+}
+
+@media print {
+  @page {
+    size: auto;
+    margin: auto 0mm;
+  }
+
+  body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .link {
+    display: none;
+  }
+}
