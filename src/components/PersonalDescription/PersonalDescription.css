@@ -1,0 +1,7 @@
+.description {
+  text-align: justify;
+}
+
+.description.personal {
+  margin-top: 1em;
+}

@@ -1,0 +1,31 @@
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link span {
+  margin-top: 0;
+  margin-left: 0.5em;
+}
+
+.link img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: initial;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #666;
+}
+
+@media print {
+  .link {
+    display: none;
+  }
+}

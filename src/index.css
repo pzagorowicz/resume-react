@@ -27,3 +27,15 @@ ul,
 p {
   margin: 0;
 }
+
+@media print {
+  @page {
+    size: auto;
+    margin: auto 0mm;
+  }
+
+  body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

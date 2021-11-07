@@ -1,0 +1,6 @@
+.job .description {
+  font-size: 0.875rem;
+}
+.job + .job {
+  margin-top: 1.5em;
+}
