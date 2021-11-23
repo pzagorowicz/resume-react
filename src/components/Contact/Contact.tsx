@@ -1,19 +1,25 @@
 import * as React from 'react';
+import { Contact as ContactModel } from '../../types/resume';
 import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
 
-const Contact: React.FunctionComponent<{}> = () => {
+type ContactProps = ContactModel;
+const Contact: React.FunctionComponent<ContactProps> = ({
+  email,
+  mobile,
+  dateOfBirth,
+}) => {
   return (
     <section>
       <h2>Contact</h2>
       <div>
         <p>
-          E-mail: <strong>piotr.zagorowicz@gmail.com</strong>
+          E-mail: <strong>{email}</strong>
         </p>
         <p>
-          Mobile: <strong>726-781-091</strong>
+          Mobile: <strong>{mobile}</strong>
         </p>
         <p>
-          Date of birth: <strong>16.04.1991</strong>
+          Date of birth: <strong>{dateOfBirth}</strong>
         </p>
       </div>
       <SocialMediaLinks />

@@ -1,24 +1,25 @@
 import * as React from 'react';
+import { Education as EducationModel } from '../../types/resume';
 import EducationItem from './EducationItem';
 
-type EducationProps = {};
+type EducationProps = {
+  schools: EducationModel[];
+};
 
-const Education: React.FunctionComponent<EducationProps> = (props) => {
+const Education: React.FunctionComponent<EducationProps> = ({ schools }) => {
   return (
     <section>
       <h2>Education</h2>
-      <EducationItem
-        timeSpan={{ since: new Date(2014, 3), to: new Date(2015, 7) }}
-        school='Warsaw University of Life Sciences'
-        faculty='Faculty of Applied Informatics and Mathematics'
-        title='Master of Science'
-      />
-      <EducationItem
-        timeSpan={{ since: new Date(2010, 10), to: new Date(2014, 2) }}
-        school='Warsaw University of Life Sciences'
-        faculty='Faculty of Applied Informatics and Mathematics'
-        title='Bachelor of Science'
-      />
+      {schools.map((school, index) => {
+        const { since, to, ...rest } = school;
+        return (
+          <EducationItem
+            key={index}
+            timeSpan={{ since: new Date(since), to: new Date(to) }}
+            {...rest}
+          />
+        );
+      })}
     </section>
   );
 };

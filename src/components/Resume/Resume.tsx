@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { ResumeModel } from '../../types/resume';
 import Abilities from '../Abilities/Abilities';
 import Consent from '../Consent/Consent';
 import Contact from '../Contact/Contact';
@@ -9,19 +10,28 @@ import PersonalDescription from '../PersonalDescription/PersonalDescription';
 import PersonalPhoto from '../PersonalPhoto/PersonalPhoto';
 import './Resume.css';
 
-const Resume: React.FunctionComponent<{}> = () => {
+type ResumeProps = ResumeModel;
+
+const Resume: React.FunctionComponent<ResumeProps> = ({
+  name,
+  description,
+  contact,
+  abilities,
+  experience,
+  education,
+}) => {
   return (
     <Page>
       <div className='resume'>
         <aside className='column column--left'>
           <PersonalPhoto />
-          <Contact />
-          <Abilities />
+          <Contact {...contact} />
+          <Abilities abilities={abilities} />
         </aside>
         <div className='column column--right'>
-          <PersonalDescription />
-          <Experience />
-          <Education />
+          <PersonalDescription name={name} description={description} />
+          <Experience jobs={experience} />
+          <Education schools={education} />
         </div>
       </div>
       <Consent />

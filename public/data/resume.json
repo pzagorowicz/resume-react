@@ -1,0 +1,106 @@
+{
+  "name": "Piotr Zagórowicz",
+  "description": "Professional .NET developer since 2013. I participated in projects in various business fields including sports, film, logistics, finance and banking. Focused on quality, interested in software design, automation and new technologies. Team player.",
+  "contact": {
+    "email": "piotr.zagorowicz@gmail.com",
+    "mobile": "726-781-091",
+    "dateOfBirth": "16.04.1991"
+  },
+  "abilities": [
+    {
+      "category": "Technologies",
+      "skills": [
+        "C#",
+        ".NET, .NET Core",
+        "JavaScript/TypeScript",
+        "React.js",
+        "HTML, CSS",
+        "ASP.NET MVC",
+        "SQL Server, T-SQL",
+        "Windows Forms"
+      ]
+    },
+    {
+      "category": "Skills",
+      "skills": [
+        "Clean code",
+        "Unit testing",
+        "Analytical skills",
+        "Troubleshooting",
+        "Scrum"
+      ]
+    },
+    {
+      "category": "Tools",
+      "skills": [
+        "Visual Studio",
+        "Visual Studio Code",
+        "Management Studio",
+        "Azure DevOps",
+        "Git",
+        "Jira",
+        "Bitbucket",
+        "TeamCity",
+        "Postman"
+      ]
+    },
+    {
+      "category": "Languages",
+      "skills": ["polish - native", "english - B2"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "GS Services",
+      "timeSpan": "7.2021 – presently",
+      "role": "Fullstack .NET Developer",
+      "description": "Working on international project for global leader of the ocean shipping industry. Developing and maintaining Azure hosted app being a part of complex logistic solution."
+    },
+    {
+      "company": "Transition Technologies PSC Sp. z o.o.",
+      "timeSpan": "10.2020 – 6.2021 [9 months]",
+      "role": "React Developer",
+      "description": "Working on international project in scaled SCRUM for one of the leading companies in the manufacturing industry. Developing multiple web applications using React, Redux and  Typescript in microfrontends approach."
+    },
+    {
+      "company": "mBank S.A. (ITMAGINATION Consultant)",
+      "timeSpan": "02.2018 – 09-2020 [2 years 9 months]",
+      "role": "Fullstack .NET Developer",
+      "description": "Working on the online retail banking system, developing new frontend app built from scratch using React, Redux and Typescript. Taking care of cross-browser compatibility, accessibility and responsive web design. Maintaining an analytical system based on Apache Storm, Kafka and Java. Cooperating with business stakeholders and different teams using Scrum methodology."
+    },
+    {
+      "company": "ITMAGINATION",
+      "timeSpan": "05.2016 – 02.2018 [1 year 10 months]",
+      "role": ".NET Developer",
+      "description": "Working on a financial platform targeting SME sector. Designing, developing, unit-testing, documenting and maintaining code of business processes in multiple web applications. Integrating with various external systems, e.g. banking, online payments, public."
+    },
+    {
+      "company": "Benson Consultants",
+      "timeSpan": "05.2015 – 04.2016 [1 year]",
+      "role": ".NET Developer",
+      "description": "Development and maintenance of logistic systems. Implementation of genetic algorithms for the problem of routing vehicles."
+    },
+    {
+      "company": "Derget IT Outsourcing",
+      "timeSpan": "07.2013 – 04.2015 [1 year 10 months]",
+      "role": ".NET Developer",
+      "description": "Development of a system for running sport competitions. Design and implementation of a database system for a film industry distributor."
+    }
+  ],
+  "education": [
+    {
+      "school": "Warsaw University of Life Sciences",
+      "faculty": "Faculty of Applied Informatics and Mathematics",
+      "title": "Master of Science",
+      "since": "2014-03-31T22:00:00.000Z",
+      "to": "2015-07-31T22:00:00.000Z"
+    },
+    {
+      "school": "Warsaw University of Life Sciences",
+      "faculty": "Faculty of Applied Informatics and Mathematics",
+      "title": "Bachelor of Science",
+      "since": "2010-10-31T23:00:00.000Z",
+      "to": "2014-02-28T23:00:00.000Z"
+    }
+  ]
+}
