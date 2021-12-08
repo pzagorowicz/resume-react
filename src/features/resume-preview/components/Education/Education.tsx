@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Education as EducationModel } from '../../types/resume';
+import { Education as EducationModel } from '../../../../types/resume';
 import EducationItem from './EducationItem';
 
 type EducationProps = {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Ability } from '../../types/resume';
+import { Ability } from '../../../../types/resume';
 import List from '../List/List';
 
 type AbilitiesProps = {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import profilePhoto from '../../images/profile.jpg';
+import profilePhoto from '../../assets/profile.jpg';
 import './PersonalPhoto.css';
 
 const PersonalPhoto: React.FunctionComponent<{}> = () => {

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import githubLogo from '../../images/GitHub-Mark-32px.png';
-import linkedinLogo from '../../images/linkedin-logo.png';
+import githubLogo from '../../assets/GitHub-Mark-32px.png';
+import linkedinLogo from '../../assets/linkedin-logo.png';
 import './SocialMediaLinks.css';
 
 const SocialMediaLinks: React.FunctionComponent<{}> = () => {

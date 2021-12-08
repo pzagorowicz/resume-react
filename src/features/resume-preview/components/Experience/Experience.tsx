@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Job as JobModel } from '../../types/resume';
+import { Job as JobModel } from '../../../../types/resume';
 import Job from '../Job/Job';
 
 type ExperienceProps = { jobs: JobModel[] };

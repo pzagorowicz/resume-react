@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ResumeModel } from '../../types/resume';
+import { ResumeModel } from '../../../../types/resume';
 import Abilities from '../Abilities/Abilities';
 import Consent from '../Consent/Consent';
 import Contact from '../Contact/Contact';
@@ -8,11 +8,11 @@ import Experience from '../Experience/Experience';
 import Page from '../Page/Page';
 import PersonalDescription from '../PersonalDescription/PersonalDescription';
 import PersonalPhoto from '../PersonalPhoto/PersonalPhoto';
-import './Resume.css';
+import './ResumePreview.css';
 
-type ResumeProps = ResumeModel;
+type ResumePreviewProps = ResumeModel;
 
-const Resume: React.FunctionComponent<ResumeProps> = ({
+const ResumePreview: React.FunctionComponent<ResumePreviewProps> = ({
   name,
   description,
   contact,
@@ -39,4 +39,4 @@ const Resume: React.FunctionComponent<ResumeProps> = ({
   );
 };
 
-export default Resume;
+export default ResumePreview;

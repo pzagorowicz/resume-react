@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Contact as ContactModel } from '../../types/resume';
+import { Contact as ContactModel } from '../../../../types/resume';
 import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
 
 type ContactProps = ContactModel;

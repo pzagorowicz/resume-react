@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Resume from './components/Resume/Resume';
+import ResumePreview from './features/resume-preview';
 import { ResumeModel } from './types/resume';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       });
   }, []);
 
-  return data ? <Resume {...data} /> : <p>no resume data</p>;
+  return data ? <ResumePreview {...data} /> : <p>no resume data</p>;
 }
 
 export default App;
